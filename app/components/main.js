@@ -76,8 +76,8 @@ export default class Begin extends React.Component {
       <div>
         <div style={{padding: "100px 100px", height: 1000, backgroundSize: "cover", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
           {content}
-        </div>
-        <div style={{height: "50px", backgroundColor: "black"}}>
+          <div style={{height: "50px", backgroundColor: "black", bottom: 0, align: "center"}}>
+          </div>
         </div>
       </div>
     )
