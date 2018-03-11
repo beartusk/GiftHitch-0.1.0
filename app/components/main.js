@@ -1,7 +1,7 @@
 import React from 'react'
 import {Panel, Col} from 'react-bootstrap'
 
-intro(){
+function intro () {
   return(
     <Col sm={12} md={6} offset={{ md:3 }}>
       <Panel bsStyle="primary" style={{height: 500}}>
