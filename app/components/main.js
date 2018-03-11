@@ -36,10 +36,10 @@ export default class Begin extends React.Component {
         <Row>
           <Col sm={10} md={6} mdOffset={3} smOffset={1}>
             <Panel bsStyle="primary" style={{height: 500}}>
-              <Panel.Heading>
+              <Panel.Heading style={{backgroundColor: "black", borderColor: "white", fontColor: "white"}}>
                   <Panel.Title componentClass="h3">Gift Hitch Biatch!!!!</Panel.Title>
               </Panel.Heading>
-              <Panel.Body style={{backgroundColor: "black"}}>This will be the website that displays Anything and everything GiftHitch!!!</Panel.Body>
+              <Panel.Body style={{backgroundColor: "black", borderColor: "white", fontColor: "white"}}>This will be the website that displays Anything and everything GiftHitch!!!</Panel.Body>
             </Panel>
           </Col>
         </Row>
