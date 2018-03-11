@@ -2,8 +2,8 @@ import React from 'react'
 import {Panel, Col} from 'react-bootstrap'
 function Begin () {
   return (
-    <div style={{padding: "10px 10px 10px 10px", backgroundImage: 'url("assets/img/gifthitch.jpg")'}}>
-      <div className="row" style={{backgroundColor: "black"}}>
+    <div style={{padding: "20px 20px 20px 20px", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
+      <div className="row">
         <Col sm={12} md={6}>
           <Panel bsStyle="primary" style={{height: 500}}>
         	<Panel.Heading>
@@ -21,7 +21,7 @@ function Begin () {
           </Panel>
         </Col>
       </div>
-      <div className="row" style={{backgroundColor: "black"}}>
+      <div className="row">
         <Col sm={12} md={6}>
           <Panel bsStyle="primary" style={{height: 500}}>
         	<Panel.Heading>
