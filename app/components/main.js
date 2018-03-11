@@ -9,8 +9,7 @@ import {
   Panel,
   DropdownButton,
   MenuItem,
-  Well,
-  Container
+  Well
 } from 'react-bootstrap'
 
 export default class Begin extends React.Component {
@@ -40,9 +39,9 @@ export default class Begin extends React.Component {
     return (
       <div>
         <div style={{paddingTop: "100px", backgroundSize: "cover", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
-          <Container fluid>
+          <Grid>
             <Row>
-              <Col sm={12} md={6} offset={{md:3}}>
+              <Col sm={12} md={6} mdOffset={3}>
                 <Panel bsStyle="primary" style={{height: 500}}>
                   <Panel.Heading>
                       <Panel.Title componentClass="h3">New Beginnings</Panel.Title>
@@ -51,7 +50,7 @@ export default class Begin extends React.Component {
                 </Panel>
               </Col>
             </Row>
-          </Container>
+          </Grid>
         </div>
         <div style={{height: "200px", backgroundColor: "black"}}>
         </div>
