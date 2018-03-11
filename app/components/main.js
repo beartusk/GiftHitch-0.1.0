@@ -10,8 +10,7 @@ import {
   DropdownButton,
   MenuItem,
   Well,
-  Container,
-  Row
+  Container
 } from 'react-bootstrap'
 
 export default class Begin extends React.Component {
