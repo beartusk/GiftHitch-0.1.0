@@ -35,11 +35,15 @@ export default class Begin extends React.Component {
       <Grid>
         <Row>
           <Col sm={10} md={6} mdOffset={3} smOffset={1}>
-            <Panel bsStyle="primary" style={{height: 500}}>
+            <Panel bsStyle="primary" style={{height: 500, backgroundColor: "black", borderColor: "white", fontColor: "white"}}>
               <Panel.Heading style={{backgroundColor: "black", borderColor: "white", fontColor: "white"}}>
                   <Panel.Title componentClass="h3">Gift Hitch Biatch!!!!</Panel.Title>
               </Panel.Heading>
-              <Panel.Body style={{backgroundColor: "black", borderColor: "white", fontColor: "white"}}>This will be the website that displays Anything and everything GiftHitch!!!</Panel.Body>
+              <Panel.Body style={{backgroundColor: "black", borderColor: "white", fontColor: "white"}}>
+                <h4 style={{ fontColor: "white"}}>This will be the website that displays Anything and everything GiftHitch!!!<h4>
+                <h4 style={{ fontColor: "white"}}>We can put whatever the fuck you want here bro. And, this is mostly HTML with some modern Javascript Framework stuff. It is called React JS and it is what Facebook and a bunch of other sites use.<h4>
+                <h4 style={{ fontColor: "white"}}>With your html background you could catch on to this pretty quickly<h4>
+              </Panel.Body>
             </Panel>
           </Col>
         </Row>
