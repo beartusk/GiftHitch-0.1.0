@@ -1,5 +1,5 @@
 import React from 'react'
-import {Panel, Col} from 'react-bootstrap'
+import {Panel, Col, Container} from 'react-bootstrap'
 
 function intro () {
   return(
