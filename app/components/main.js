@@ -40,10 +40,10 @@ export default class Begin extends React.Component {
                   <Panel.Title componentClass="h3">Gift Hitch Biatch!!!!</Panel.Title>
               </Panel.Heading>
               <Panel.Body style={{backgroundColor: "black", borderColor: "white", fontColor: "white"}}>
-                <h3 style={{ fontColor: "white"}}>This will be the website that displays Anything and everything GiftHitch!!!</h3>
-                <h3 style={{ fontColor: "white"}}>We can put whatever the fuck you want here bro. And, this is mostly HTML with some modern Javascript Framework stuff. It is called React JS and it is what Facebook and a bunch of other sites use.</h3>
-                <h3 style={{ fontColor: "white"}}>With your html background you could catch on to this pretty quickly</h3>
-                  <h4 style={{ fontColor: "white"}}>Text is supposed to be white will fix later<h4>
+                <h4 style={{ fontColor: "white"}}>This will be the website that displays Anything and everything GiftHitch!!!</h4>
+                <h4 style={{ fontColor: "white"}}>We can put whatever the fuck you want here bro. And, this is mostly HTML with some modern Javascript Framework stuff. It is called React JS and it is what Facebook and a bunch of other sites use.</h4>
+                <h4 style={{ fontColor: "white"}}>With your html background you could catch on to this pretty quickly</h4>
+                <h4 style={{ fontColor: "white"}}>Text is supposed to be white will fix later</h4>
               </Panel.Body>
             </Panel>
           </Col>
