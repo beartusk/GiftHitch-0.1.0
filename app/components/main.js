@@ -60,7 +60,7 @@ export default class Begin extends React.Component {
     }
     */
 
-    let content = this.intro();
+    let content = this.introButton();
 
     return (
       <div>
