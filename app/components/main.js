@@ -14,6 +14,8 @@ function Begin () {
         </Col>
       </div>
     </div>
+    <div style={{height: "200px", backgroundColor: "black"}}>
+    </div>
   )
 }
 export default Begin
