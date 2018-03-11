@@ -9,7 +9,7 @@ function Begin () {
         	<Panel.Heading>
           	  <Panel.Title componentClass="h3">New Beginnings</Panel.Title>
         	</Panel.Heading>
-           	<Panel.Body>This will be a website that displays the working portfolio of Kenneth Beartusk. Stay Tuned ;)</Panel.Body>
+           	<Panel.Body style={{backgroundColor: "black"}}>This will be a website that displays the working portfolio of Kenneth Beartusk. Stay Tuned ;)</Panel.Body>
           </Panel>
         </Col>
         <Col sm={12} md={6}>
