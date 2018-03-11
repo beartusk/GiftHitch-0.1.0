@@ -2,7 +2,7 @@ import React from 'react'
 import {Panel, Col} from 'react-bootstrap'
 function Begin () {
   return (
-    <div style={{padding: "50px 50px 50px 50px"}>
+    <div style={{padding: "50px 50px 50px 50px"}}>
       <div style={{height: 50, backgroundColor: "#FFFFFF"}}><i>;ljfg;ladf;ldkjas;flkj</i></div>
       <div className="row" style={{backgroundColor: "black"}}>
         <Col sm={12} md={6}>
