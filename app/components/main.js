@@ -1,7 +1,7 @@
 import React from 'react'
 import {Panel, Col, Container} from 'react-bootstrap'
 
-export default class Begin extends React.component {
+export default class Begin extends React.Component {
 
   constructor(props){
     super(props);
