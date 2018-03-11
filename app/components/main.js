@@ -51,17 +51,21 @@ export default class Begin extends React.Component {
   }
 
   render () {
+    /*
     if(this.state.introButtonPressed == true){
       content = this.intro();
     }
     else{
       content = this.introButton();
     }
+    */
+
+    let content = this.intro();
 
     return (
       <div>
         <div style={{paddingTop: "100px", backgroundSize: "cover", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
-
+          {content}
         </div>
         <div style={{height: "200px", backgroundColor: "black"}}>
         </div>
