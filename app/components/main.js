@@ -3,6 +3,7 @@ import {Panel, Col} from 'react-bootstrap'
 function Begin () {
   return (
     <div>
+      <div><i style={{backgroundColor: "#FFFFFF"}}></i></div>
       <div className="row" style={{backgroundColor: "black"}}>
         <Col sm={12} md={6}>
           <Panel bsStyle="primary" style={{height: 500}}>
