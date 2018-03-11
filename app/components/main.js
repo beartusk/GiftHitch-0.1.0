@@ -7,7 +7,7 @@ export default class Begin extends React.Component {
     super(props, context);
 
     this.state = {
-      button = false;
+      button: false
     }
   }
 
