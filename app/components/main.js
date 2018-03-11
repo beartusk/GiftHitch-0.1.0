@@ -45,22 +45,19 @@ export default class Begin extends React.Component {
   introButton(){
     return(
       <Button bsStyle="primary" bsSize="large" block onClick={this.introButtonPressed.bind(this)}>
-        Calculate Rates
+        What is GiftHitch?
       </Button>
     )
   }
 
   render () {
-    /*
+    let content
     if(this.state.introButtonPressed == true){
       content = this.intro();
     }
     else{
       content = this.introButton();
     }
-    */
-
-    let content = this.introButton();
 
     return (
       <div>
