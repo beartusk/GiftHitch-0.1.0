@@ -2,6 +2,7 @@
 const webpack = require('webpack');
 const HtmlPlugin = require('html-webpack-plugin');
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   // Tell webpack to start bundling our app at app/index.js
@@ -22,7 +23,7 @@ module.exports = {
     }]
   },
   // Since Webpack only understands JavaScript, we need to
-  // add a plugin to tell it how to handle html files.   
+  // add a plugin to tell it how to handle html files.
   plugins: [
     // Configure HtmlPlugin to use our own index.html file
     // as a template.
@@ -30,6 +31,9 @@ module.exports = {
     // for the full list of options.
     new HtmlPlugin({
       template: 'app/index.html'
-    })
+    }),
+    new CopyWebpackPlugin([{
+     from: "./app/assets", to: "./assets"
+    }])
   ]
 }
