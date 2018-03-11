@@ -12,6 +12,13 @@ import {
   Well
 } from 'react-bootstrap'
 
+var buttonStyle = {
+  position: "absolute";
+  top: "50%";
+  left: "50%";
+  transform: "translate(-50%, -50%)";
+}
+
 export default class Begin extends React.Component {
 
   constructor(props, context){
@@ -44,7 +51,7 @@ export default class Begin extends React.Component {
 
   introButton(){
     return(
-      <Button bsStyle="primary" bsSize="large" block onClick={this.introButtonPressed.bind(this)}>
+      <Button bsStyle="primary" bsSize="large" block onClick={this.introButtonPressed.bind(this)} style={buttonStyle}>
         What is GiftHitch?
       </Button>
     )
@@ -60,7 +67,7 @@ export default class Begin extends React.Component {
     }
 
     return (
-      <div>
+      <div style={{height: "100%"}}>
         <div style={{paddingTop: "100px", backgroundSize: "cover", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
           {content}
         </div>
