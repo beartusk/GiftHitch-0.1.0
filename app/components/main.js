@@ -11,6 +11,7 @@ import {
   MenuItem,
   Well
 } from 'react-bootstrap'
+import {Footer} from 'react-materialize'
 
 var buttonStyle = {
   position: "absolute",
@@ -28,6 +29,7 @@ export default class Begin extends React.Component {
       introButtonPressed: false
     }
   }
+
   intro () {
     return(
       <Grid>
