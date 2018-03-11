@@ -3,7 +3,7 @@ import {Panel, Col} from 'react-bootstrap'
 function Begin () {
   return (
     <div>
-      <div className="row">
+      <div className="row" style={{backgroundColor: "black"}}>
         <Col sm={12} md={6}>
           <Panel bsStyle="primary" style={{height: 500}}>
         	<Panel.Heading>
@@ -21,7 +21,7 @@ function Begin () {
           </Panel>
         </Col>
       </div>
-      <div className="row">
+      <div className="row" style={{backgroundColor: "black"}}>
         <Col sm={12} md={6}>
           <Panel bsStyle="primary" style={{height: 500}}>
         	<Panel.Heading>
