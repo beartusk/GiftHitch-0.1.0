@@ -37,7 +37,7 @@ export default class Begin extends React.Component {
   }
 
   return (
-    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12" style={{width: "100%", height: "100%", backgroundImage: `url("/assets/img/HD-Free-Background.png")`}}>
+    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <br />
       <br />
       <br />
