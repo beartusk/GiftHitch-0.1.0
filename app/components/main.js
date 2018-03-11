@@ -2,7 +2,7 @@ import React from 'react'
 import {Panel, Col} from 'react-bootstrap'
 function Begin () {
   return (
-    <div style={{backgroundColor: "#FF0000"}}>
+    <div>
       <Col sm={12} md={6}>
         <Panel bsStyle="primary" style={{height: 500}}>
       	<Panel.Heading>
