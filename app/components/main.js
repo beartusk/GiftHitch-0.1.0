@@ -68,7 +68,7 @@ export default class Begin extends React.Component {
 
     return (
       <div style={{height: "100%"}}>
-        <div style={{height: "100%", position: "relative" paddingTop: "100px", backgroundSize: "cover", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
+        <div style={{height: "100%", position: "relative", paddingTop: "100px", backgroundSize: "cover", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
           {content}
         </div>
         <div style={{height: "200px", backgroundColor: "black"}}>
