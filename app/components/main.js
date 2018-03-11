@@ -2,8 +2,7 @@ import React from 'react'
 import {Panel, Col} from 'react-bootstrap'
 function Begin () {
   return (
-    <div style={{padding: "50px 50px 50px 50px"}}>
-      <div style={{height: 50, backgroundColor: "#000000"}}><i>;ljfg;ladf;ldkjas;flkj</i></div>
+    <div style={{padding: "0px 0px 10px 10px", backgroundImage: 'url("/assets/img/gifthitch.jpg")'}}>
       <div className="row" style={{backgroundColor: "black"}}>
         <Col sm={12} md={6}>
           <Panel bsStyle="primary" style={{height: 500}}>
