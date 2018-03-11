@@ -75,11 +75,8 @@ export default class Begin extends React.Component {
     }
 
     return (
-      <div>
         <div style={{padding: "100px 100px", height: 1000, backgroundSize: "cover", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
           {content}
-          <div style={{height: "50px", backgroundColor: "black", bottom: 0, align: "center"}}>
-          </div>
         </div>
         <Footer copyrights="&copy 2015 Copyright Text"
           moreLinks={
@@ -100,7 +97,6 @@ export default class Begin extends React.Component {
             <h5 className="white-text">Footer Content</h5>
             <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
         </Footer>;
-      </div>
     )
   }
 }
