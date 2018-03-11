@@ -32,7 +32,7 @@ export default class Begin extends React.Component {
     return(
       <Grid>
         <Row>
-          <Col sm={12} md={6} offset={{ md:3 }}>
+          <Col sm={10} md={6} mdOffset={3} smOffset={1}>
             <Panel bsStyle="primary" style={{height: 500}}>
               <Panel.Heading>
                   <Panel.Title componentClass="h3">New Beginnings</Panel.Title>
@@ -51,9 +51,15 @@ export default class Begin extends React.Component {
 
   introButton(){
     return(
-      <Button bsStyle="primary" bsSize="large" block onClick={this.introButtonPressed.bind(this)} style={buttonStyle}>
-        What is GiftHitch?
-      </Button>
+      <Grid>
+        <Row>
+          <Col sm={10} md={2} smOffset={1} mdOffset={5}>
+            <Button bsStyle="primary" bsSize="large" block onClick={this.introButtonPressed.bind(this)} style={buttonStyle}>
+              What is GiftHitch?
+            </Button>
+          </Col>
+        </Row>
+      </Grid>
     )
   }
 
@@ -68,7 +74,7 @@ export default class Begin extends React.Component {
 
     return (
       <div style={{height: "100%"}}>
-        <div style={{height: "100%", position: "relative", paddingTop: "100px", backgroundSize: "cover", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
+        <div style={{padding: "100px 100px", backgroundSize: "cover", backgroundImage: `url("/assets/img/gifthitch.jpg")`}}>
           {content}
         </div>
         <div style={{height: "200px", backgroundColor: "black"}}>
