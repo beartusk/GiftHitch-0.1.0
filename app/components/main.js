@@ -37,9 +37,9 @@ export default class Begin extends React.Component {
           <Col sm={10} md={6} mdOffset={3} smOffset={1}>
             <Panel bsStyle="primary" style={{height: 500}}>
               <Panel.Heading>
-                  <Panel.Title componentClass="h3">New Beginnings</Panel.Title>
+                  <Panel.Title componentClass="h3">Gift Hitch Biatch!!!!</Panel.Title>
               </Panel.Heading>
-              <Panel.Body style={{backgroundColor: "black"}}>This will be a website that displays the working portfolio of Kenneth Beartusk. Stay Tuned ;)</Panel.Body>
+              <Panel.Body style={{backgroundColor: "black"}}>This will be the website that displays Anything and everything GiftHitch!!!</Panel.Body>
             </Panel>
           </Col>
         </Row>
@@ -56,7 +56,7 @@ export default class Begin extends React.Component {
       <Grid>
         <Row>
           <Col sm={10} md={2} smOffset={1} mdOffset={5}>
-            <Button bsStyle="primary" bsSize="large" block onClick={this.introButtonPressed.bind(this)} style={buttonStyle}>
+            <Button bsStyle="primary" bsSize="large" block onClick={this.introButtonPressed.bind(this)} style={{backgroundColor: "black", borderColor: "white", fontColor: "white"}}>
               What is GiftHitch?
             </Button>
           </Col>
@@ -85,9 +85,9 @@ export default class Begin extends React.Component {
           }
           links={
             <ul>
-              <li><a className="white-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a className="white-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a className="white-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a className="white-text text-lighten-3" href="#!">Facebook Link</a></li>
+              <li><a className="white-text text-lighten-3" href="#!">Twitter Link</a></li>
+              <li><a className="white-text text-lighten-3" href="#!">Youtube Link</a></li>
               <li><a className="white-text text-lighten-3" href="#!">Link 4</a></li>
             </ul>
           }
@@ -96,7 +96,7 @@ export default class Begin extends React.Component {
           }}
         >
             <h5 className="white-text">Footer Content</h5>
-            <p className="white-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            <p className="white-text">GiftHitch blahblahblah.</p>
         </Footer>
       </div>
     )
