@@ -3,8 +3,8 @@ import {Panel, Col, Container} from 'react-bootstrap'
 
 export default class Begin extends React.component {
 
-  constructor(props, context){
-    super(props, context);
+  constructor(props){
+    super(props);
   }
 
   intro () {
