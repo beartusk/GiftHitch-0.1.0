@@ -5,6 +5,10 @@ export default class Begin extends React.Component {
 
   constructor(props, context){
     super(props, context);
+
+    this.state = {
+      button = false;
+    }
   }
 
   intro () {
