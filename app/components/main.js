@@ -13,10 +13,10 @@ import {
 } from 'react-bootstrap'
 
 var buttonStyle = {
-  position: "absolute";
-  top: "50%";
-  left: "50%";
-  transform: "translate(-50%, -50%)";
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)"
 }
 
 export default class Begin extends React.Component {
