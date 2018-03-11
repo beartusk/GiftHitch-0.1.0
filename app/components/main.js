@@ -93,7 +93,9 @@ export default class Begin extends React.Component {
               <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
             </ul>
           }
-          className='example'
+          style={{
+            backgroundColor: "black", fontColor: "white"
+          }}
         >
             <h5 className="white-text">Footer Content</h5>
             <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
