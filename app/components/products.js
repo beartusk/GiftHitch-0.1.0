@@ -1,5 +1,6 @@
 import $ from 'jquery'
 import _ from 'lodash'
+import '../../node_modules/bootstrap/dist/css/bootstrap-grid.css'
 
 import React from 'react'
 import {
