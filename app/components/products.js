@@ -259,7 +259,7 @@ export default class Products extends React.Component {
                   <div>
                     <h1 style={{fontFamily: "Abel", fontSize: 18, fontWeight: "bold", textAlign: "center"}}>Welcome Letter</h1>
                     <br />
-                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-9 offset-lg-3" style={{fontFamily: "Song Myung"}}>
+                    <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 offset-md-3 offset-lg-3" style={{fontFamily: "Song Myung"}}>
                       <p style={{fontSize: 16}}>
                         Hi and welcome to Feeaudit.com a highly intuitive credit card processing rate calculator, my name is Chris Kittler and I am 35-year veteran of the card payment industry.
                       </p>
