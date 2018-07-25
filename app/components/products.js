@@ -21,6 +21,7 @@ import {
 
 
 const headers = {
+  'Access-Control-Allow-Origin': '*',
   'Authorization': 'Basic ' + base64.encode("miniproject:Pr!nt123"),
   'Content-Type': 'application/json',
 };
