@@ -79,18 +79,10 @@ export default class Main extends React.Component {
     super(props, context);
 
     this.state = {
-      introButtonPressed: false
     }
   }
 
   render () {
-    let content
-    if(this.state.introButtonPressed == true){
-      content = this.intro();
-    }
-    else{
-      content = this.introButton();
-    }
 
     return (
       <div style={{position: "relative", width: "100%"}}>
