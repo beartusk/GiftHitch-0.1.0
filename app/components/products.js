@@ -52,13 +52,13 @@ export default class Products extends React.Component {
       this.setState({mainHeight: screen.height*2.4})
     }
 
-    fetch("https://testapi.pfl.com/products?apikey=136085", tokenPayload).then(function(response) {
+    fetch("https://testapi.pfl.com/products?apikey=136085", tokenPayload).then(response => {
       if (response.ok) {
         response.json().then(json => {
           console.log(JSON.stringify(json))
         });
       }
-    }).catch(function(response) {
+    }).catch(response => {
         console.log("There was an error in fetch with response: \n"+response);
     });
   }
