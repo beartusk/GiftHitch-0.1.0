@@ -28,7 +28,7 @@ const headers = {
 const tokenPayload = {
   headers: headers,
   method: "GET",
-  mode: "cors"
+  mode: "no-cors"
 };
 
 export default class Products extends React.Component {
@@ -52,6 +52,7 @@ export default class Products extends React.Component {
       this.setState({mainHeight: screen.height*2.4})
     }
 
+    console.log(base64.encode("miniproject:Pr!nt123"))
     fetch("https://testapi.pfl.com/products?apikey=136085", tokenPayload).then(response => {
       if (response.ok) {
         response.json().then(json => {
