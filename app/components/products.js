@@ -1,5 +1,6 @@
 import $ from 'jquery'
 import _ from 'lodash'
+let base64 = require('base-64');
 
 import React from 'react'
 import {
@@ -17,44 +18,16 @@ import {
   OverlayTrigger
 } from 'react-bootstrap'
 
-let mainLabel = {
-  fontWeight: "bold",
-  fontFamily: "Abel",
-  fontSize: 22,
-  marginBottom: 14
-}
-let inputStyle = {
-  height: 40,
-  width: 400,
-  fontFamily: "Abel",
-  fontSize: 20,
-  paddingLeft: 24,
-  paddingRight: 0,
-  marginBottom: 24,
-  display: "inline-block",
-  float: "left"
-}
-let emailInputStyle = {
-  height: 40,
-  width: 400,
-  fontFamily: "Abel",
-  fontSize: 20,
-  marginBottom: 24,
-  display: "inline-block",
-  float: "left"
-}
-let dollarStyle = {
-  position: "absolute",
-  display: "block",
-  transform: "translate(0, 10%)",
-  top: 2,
-  pointerEvents: "none",
-  width: 28,
-  textAlign: "center",
-  fontStyle: "normal",
-  fontFamily: "Abel",
-  fontSize: 20
-}
+
+
+const headers = {
+  'Authorization': '',
+  'Content-Type': 'application/json',
+};
+const tokenPayload = {
+  headers: headers,
+  method: "GET"
+};
 
 export default class Products extends React.Component {
 
@@ -62,36 +35,11 @@ export default class Products extends React.Component {
     super(props, context);
 
     this.state = {
-      showRate: false,
-      shiftedPage: false,
       hover1: false,
       hover2: false,
       hover3: false,
       hover4: false,
-      mainBackgroundHeight: 150,
       mainHeight: 1100,
-      validProcessingInput: null,
-      BusinessType: 0,
-      MonthlySales: 0,
-      AverageTicket: 0,
-      CurRateState: 0,
-      CurMonthState: 0,
-      CurAnnualState: 0,
-      NewRateState1: 0,
-      NewRateState2: 0,
-      NewAnnualState: 0,
-      NewMonthState: 0,
-      SaveRateState: 0,
-      SaveMonthState: 0,
-      SaveAnnualState: 0,
-      SaveTriAnnualState: 0,
-      executed: null,
-      details: {
-        ip: null,
-        email: null,
-        terms: null
-      },
-      confirmDisabled: false
     };
 
   }
@@ -101,15 +49,16 @@ export default class Products extends React.Component {
     if(screen.width < 600){
       this.setState({mainHeight: screen.height*2.4})
     }
-  }
 
-
-
-
-  _setService(idVal, val1)
-  {
-    document.getElementById(idVal).value = val1;
-    this.setState({serviceType: val1});
+    /*fetch("https://testapi.pfl.com/products?apikey=1234567", tokenPayload).then(function(response) {
+      if (response.ok) {
+        response.json().then(json => {
+          console.log(JSON.stringify(json))
+        });
+      }
+    }).catch(function(response) {
+        console.log("There was an error in fetch with response: \n"+response);
+    });*/
   }
 
   _setVal(idVal, val1)

@@ -106,9 +106,10 @@ export default class Main extends React.Component {
           </div>
           <Products />
         </div>
-        <div style={{height: 100, backgroundColor: "black", position: "absolute", bottom: 0, width: "100%", zIndex: "2", borderTop: "1px solid rgba(0,0,0,0.8)"}}>
+        <div style={{height: 120, backgroundColor: "black", position: "absolute", bottom: 0, width: "100%", zIndex: "2", borderTop: "1px solid rgba(0,0,0,0.8)"}}>
             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-lg-offset-2">
               <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <br />
                 <p style={{textAlign: "center", color: "white"}}>© 2018 Printing For Less</p>
               </div>
               <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3">
@@ -144,7 +145,7 @@ export default class Main extends React.Component {
                 </div>
               </div>
             </div>
-            <div style={{color: "white"}}>className="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div style={{color: "white"}} className="col-xs-3 col-sm-3 col-md-3 col-lg-3">
               <br />
               <p>Contact Support</p>
               <p>Phone: (406) 222-4890</p>
