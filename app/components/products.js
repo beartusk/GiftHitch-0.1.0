@@ -21,7 +21,7 @@ import {
 
 
 const headers = {
-  'Authorization': '',
+  'Authorization': 'Basic ' + base64.encode("miniproject:Pr!nt123"),
   'Content-Type': 'application/json',
 };
 const tokenPayload = {
@@ -50,7 +50,7 @@ export default class Products extends React.Component {
       this.setState({mainHeight: screen.height*2.4})
     }
 
-    /*fetch("https://testapi.pfl.com/products?apikey=1234567", tokenPayload).then(function(response) {
+    fetch("https://testapi.pfl.com/products?apikey=136085", tokenPayload).then(function(response) {
       if (response.ok) {
         response.json().then(json => {
           console.log(JSON.stringify(json))
@@ -58,7 +58,7 @@ export default class Products extends React.Component {
       }
     }).catch(function(response) {
         console.log("There was an error in fetch with response: \n"+response);
-    });*/
+    });
   }
 
   _setVal(idVal, val1)
