@@ -65,7 +65,7 @@ let styles = {
     position: "absolute",
     background: "linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1) 67%)"
   },
-  buttonStyle = {
+  buttonStyle: {
     position: "absolute",
     top: "50%",
     left: "50%",
