@@ -27,7 +27,6 @@ const headers = {
 };
 const tokenPayload = {
   headers: headers,
-  method: "GET",
   mode: "no-cors"
 };
 
