@@ -259,7 +259,7 @@ export default class Products extends React.Component {
                   <div>
                     <h1 style={{fontFamily: "Abel", fontSize: 18, fontWeight: "bold", textAlign: "center"}}>Welcome Letter</h1>
                     <br />
-                    <div className="col-xs-8 col-sm-8 col-md-8 col-lg-7 offset-lg-1" style={{fontFamily: "Song Myung"}}>
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-9 offset-lg-3" style={{fontFamily: "Song Myung"}}>
                       <p style={{fontSize: 16}}>
                         Hi and welcome to Feeaudit.com a highly intuitive credit card processing rate calculator, my name is Chris Kittler and I am 35-year veteran of the card payment industry.
                       </p>
@@ -284,9 +284,6 @@ export default class Products extends React.Component {
                         In regard to promises, prior to any final calculations you will need to provide your processing statements that were used to complete the
                         calculation. We want to assure that you put in the right data so you are guaranteed to get the rate that calculated.
                       </p>
-                    </div>
-                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                      <img src="/assets/img/Chris cutout.png" style={{transform: "translateY(-185px)", position: "absolute", width: 420}} />
                     </div>
                   </div>
                 </div>
