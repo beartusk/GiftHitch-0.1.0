@@ -1,7 +1,5 @@
 import $ from 'jquery'
 import _ from 'lodash'
-import '../../node_modules/bootstrap/dist/css/bootstrap-grid.css'
-import '../assets/css/your_style.css'
 
 import publicIp from 'public-ip'
 import React from 'react'
