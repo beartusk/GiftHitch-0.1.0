@@ -106,7 +106,7 @@ export default class Main extends React.Component {
           </div>
           <Products />
         </div>
-        <div style={{height: 200, backgroundColor: "#00000000", position: "absolute", bottom: 0, width: "100%", zIndex: "2", borderTop: "1px solid rgba(0,0,0,0.8)"}}>
+        <div style={{height: 100, backgroundColor: "black", position: "absolute", bottom: 0, width: "100%", zIndex: "2", borderTop: "1px solid rgba(0,0,0,0.8)"}}>
             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-lg-offset-2">
               <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                 <p style={{textAlign: "center"}}>© 2018 Printing For Less</p>
