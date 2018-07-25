@@ -28,7 +28,7 @@ const headers = {
 const tokenPayload = {
   headers: headers,
   method: "GET",
-  mode: "no-cors"
+  mode: "cors"
 };
 
 export default class Products extends React.Component {
