@@ -1,6 +1,5 @@
 import $ from 'jquery'
 import _ from 'lodash'
-import '../../node_modules/bootstrap/dist/css/bootstrap-grid.css'
 
 import React from 'react'
 import {
@@ -254,13 +253,13 @@ export default class Products extends React.Component {
         </div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12" style={ratesBoxStyle}>
           <div className="row" style={{marginBottom: 100}}>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12" style={descriptionBoxStyle}  onMouseEnter={this.toggleHover2.bind(this)} onMouseLeave={this.toggleHover2.bind(this)}>
                   <div>
                     <h1 style={{fontFamily: "Abel", fontSize: 18, fontWeight: "bold", textAlign: "center"}}>Welcome Letter</h1>
                     <br />
-                    <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 offset-md-3 offset-lg-3" style={{fontFamily: "Song Myung"}}>
+                    <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-md-offset-3 col-lg-offset-3" style={{fontFamily: "Song Myung"}}>
                       <p style={{fontSize: 16}}>
                         Hi and welcome to Feeaudit.com a highly intuitive credit card processing rate calculator, my name is Chris Kittler and I am 35-year veteran of the card payment industry.
                       </p>
