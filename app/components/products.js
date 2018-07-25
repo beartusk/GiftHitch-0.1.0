@@ -69,7 +69,7 @@ export default class Products extends React.Component {
       hover3: false,
       hover4: false,
       mainBackgroundHeight: 150,
-      mainHeight: 1700,
+      mainHeight: 1100,
       validProcessingInput: null,
       BusinessType: 0,
       MonthlySales: 0,
@@ -243,7 +243,7 @@ export default class Products extends React.Component {
           marginTop: 5,
           marginBottom: 20,
         }}>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
             <div style={{margin: "0 auto", width: 1250}}>
               <h1 style={headerLabel}>
                 Compare your rates to ours and see how much you can save!

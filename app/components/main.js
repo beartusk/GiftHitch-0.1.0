@@ -31,7 +31,7 @@ let styles = {
   },
   image: {
     height: "auto",
-    width: "90%",
+    width: "100%",
     marginLeft: "auto",
     marginRight: "auto",
     display: "block",
@@ -88,7 +88,7 @@ export default class Main extends React.Component {
       <div style={{position: "relative", width: "100%"}}>
         <div>
           <div style={{maxHeight: 65, height: 65, backgroundColor: "white", position: "relative", zIndex: "2"}}>
-            <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 offset-lg-1">
+            <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-lg-offset-1">
               <div style={{marginRight: 15, marginTop: 3, display: "inline-block", float: "left"}}>
                 <p style={{fontFamily: "Century", fontSize: 35, position: "relative"}}>Printing For Less</p>
               </div>
@@ -107,7 +107,7 @@ export default class Main extends React.Component {
           <Products />
         </div>
         <div style={{height: 200, backgroundColor: "#00000000", position: "absolute", bottom: 0, width: "100%", zIndex: "2", borderTop: "1px solid rgba(0,0,0,0.8)"}}>
-            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-3 offset-lg-2">
+            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-lg-offset-2">
               <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                 <p style={{textAlign: "center"}}>© 2018 Printing For Less</p>
               </div>
@@ -117,7 +117,7 @@ export default class Main extends React.Component {
             <div className="col-xs-3 col-sm-3 col-md-3 col-lg-2">
               <br />
               <div className="row">
-                <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3 offset-xs-2 offset-sm-2 offset-md-2 offset-lg-2">
+                <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
                   <a title="Twitter" href="https://twitter.com/pflcom?lang=en" target = "_blank">
                     <img alt="Twitter" src="https://s3-us-west-2.amazonaws.com/pp-logo/twitter-icon-32.png" />
                   </a>
