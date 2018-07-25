@@ -1,7 +1,6 @@
 import $ from 'jquery'
 import _ from 'lodash'
 
-import publicIp from 'public-ip'
 import React from 'react'
 import {
   Table,
