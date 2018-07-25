@@ -107,7 +107,7 @@ export default class Main extends React.Component {
           <div style={styles.imageContainer}>
             <img src="/assets/img/vendor-pfl.png" style={styles.image} />
           </div>
-          <FeeAuditCalc />
+          <Products />
         </div>
         <div style={{backgroundColor: "#F8F8F8F8", position: "absolute", bottom: 0, width: "100%", zIndex: "2", borderTop: "1px solid rgba(0,0,0,0.8)"}}>
             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-3 offset-lg-2">
